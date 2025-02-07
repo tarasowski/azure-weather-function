@@ -71,7 +71,7 @@ az functionapp create --consumption-plan-location germanywestcentral --name <you
 3. Publish your function
 
 ```bash
-func azure functionapp publish <functionappnamee> --publish-local-settings
+az functionapp publish <functionappnamee> --publish-local-settings
 ```
 
 You can find more examples [here](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local)
